@@ -6,7 +6,7 @@ int main()
     int N,Q;
     cin >> N >> Q;
     int a[3000][3000];
-    cout << "yo1";
+    cout << "yo1" << endl;
     for(int i=0;i<N;i++)
     {
         int k;
@@ -14,7 +14,7 @@ int main()
         for(int j=0;j<k;j++)
             cin >> a[i][j];
     }
-    cout << "yo";
+    cout << "yo" << endl;
     for(int i=0;i<Q;i++)
     {
         int x,y;
